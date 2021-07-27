@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: red;
 }
 
 .App-logo {
@@ -35,4 +36,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbars{
+  background-color: red;
+  background-color: lightskyblue;
+    height: 27px;
+}
+.navbar2{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+.nav-content2{
+  display: inline;
+  margin: 40px;
+}
+.current{
+  float: right;
+  float: right;
+    color: darkgreen;
+}
+.task{
+  color: green;
+}
+.line {
+  background-color: black;
+    height: 1px;
+    position: relative;
+    top: 33px;
+}
+
+.contain{
+  height: 100px;
+  background-color: grey;
+}
+.addnew{
+  height: 600px;
+    background-color:skyblue;
+    position: relative;
+    top: 96px;
+    
+}
+.smith {
+  background-color:lightcyan;
+  height: 300px;
+}
+
+.thomas{
+  background-color: lightcyan;
+  height: 300px;
+  margin-top: 10px;
+}
+.details{
+  list-style-type: none;
+}
+.lorem {
+  width: 100%;
+  background-color: slategrey;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.size {
+  width: 50px;
+}
+.control-search {
+  position: absolute;
+  /* float: right; */
+  left: 1000px;
 }
